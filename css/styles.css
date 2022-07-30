@@ -361,22 +361,27 @@ address {
     margin-right: 30px;
  }
 
- .team-links-block{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    max-width: 270px;
-    padding-top: 16px;
-    padding-bottom: 30px;
- }
+.team-links{
+   justify-content: center;
+   margin-top: 16px;
+   display: flex;
+   list-style: none;
+   gap: 10px;
+}
 
- .team-links-list{
-   
- }
- .team-links-item{
-    display: inline;
- }
+.team-links-link{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   width: 44px;
+   height: 44px;
+}
+
+
+.media-svg {
+   fill: #AFB1B8;
+}
  
  .address-list{
      background-color: var(--title-text-color);
