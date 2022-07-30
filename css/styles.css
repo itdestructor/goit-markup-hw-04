@@ -371,17 +371,67 @@ address {
 
 .team-links-link{
    display: flex;
-   align-items: center;
+   align-items: baseline;
    justify-content: center;
    border-radius: 50%;
    width: 44px;
    height: 44px;
 }
 
+.team-links-link:hover,
+.team-links-link:focus{
+   background-color: var(--accent-color);
+   cursor: pointer;
+   
+}
+
 
 .media-svg {
    fill: #AFB1B8;
+   margin: 12px;
 }
+
+.team-links-item:hover .media-svg,
+.team-links-item:focus .media-svg{
+   fill: white;
+}
+
+.clients-list{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+
+.clients-item{
+   display: flex;
+   align-content: center;
+   width: 170px;
+   height: 92px;
+   border: 1px solid #AFB1B8;
+   border-radius: 4px;
+   fill: #AFB1B8
+}
+
+.clients-item:hover,
+.clients-item:focus{
+fill: var(--accent-color);
+border: 1px solid var(--accent-color);
+cursor: pointer;
+}
+
+
+
+
+.clients-link{
+display: flex;
+text-align: center;
+width: 106px;
+height: 60px;
+margin: 16px 32px;
+
+}
+
+
  
  .address-list{
      background-color: var(--title-text-color);
@@ -461,10 +511,36 @@ address {
      padding-top: 60px;
      padding-bottom: 60px;
  }
+ .footer-div{
+   display: flex;
+   gap: 70px;
+   align-items: baseline;
+ }
+
+.footer-version{
+   fill: white;
+}
+
+ 
  .footer .logo{
      color: var(--button-white-color);
      display: block;
      margin-bottom: 20px;
+ }
+
+
+
+ .footer-title{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   
+
  }
 
  .adress-item:not(:last-child){
