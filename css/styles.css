@@ -79,6 +79,13 @@ address {
     
  }
 
+ .header-box{
+   display: flex;
+   width: 1170px;
+   justify-content:space-between;
+   align-items: center;
+ }
+
  .main-nav{
     display: flex;
     justify-content: space-between;
@@ -96,10 +103,11 @@ address {
 
  }
 
+
  .contact{
     display: flex;
-    align-items: center;
  }
+
 
  .contact .item:not(:last-child){
     margin-right: 50px;
@@ -121,12 +129,6 @@ address {
  
  .logo .logo-word{
      color: #2196F3;
- }
- .link{
-    align-items: center;
-    justify-content: center;
-    display: inline-flex;
-
  }
  
  .site-nav .link{
