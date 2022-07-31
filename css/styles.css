@@ -273,7 +273,6 @@ address {
 
  .preferences .item{
     width: 270px;
-    text-align:center;
  }
 
  .preferences .item:not(:last-child){
